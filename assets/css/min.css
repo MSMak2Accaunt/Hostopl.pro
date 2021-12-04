@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+nab {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+padding: 10px;
+text-decoration: none;
+color: white;
+border-radius: 10%;
+background-color: gray;
+animation: rotating 2s 0.25s linear infinite;
+}
+.btn:hover {
+    background-color: rgb(153, 153, 153);
+}
+.btn.active {
+    background-color: aquamarine;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10%;
+    animation: rotating 2s 0.25s linear infinite;
+}
+.btn.active:hover {
+    background-color: rgb(111, 223, 186);
+}
+
+
+
